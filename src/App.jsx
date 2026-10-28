@@ -25,7 +25,7 @@ function App() {
       <Route path='/all-downloads' element={<AllDownloads />} />
       <Route path='/resumes/:id' element={<SingleResume />} />
 
-      <Route path='/*' element={<PNF />} />
+      <Route path='*' element={<PNF />} />
     </Routes>
     <Footer />
     <ToastContainer
